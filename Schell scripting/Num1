@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+echo "Enter the file name you want to check for : "  
 
-file="file"
+read fn 
 
-if [ -e "$file" ];then
-    if [ ! -s "$file" ];then 
+if [ -e "$fn" ];then
+    if [ ! -s "$fn" ];then 
        echo 1
     else
        echo 0
