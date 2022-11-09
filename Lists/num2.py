@@ -7,8 +7,8 @@ and returns the index if the target is found. If not, return the index
 where it would be if it were inserted in order.
 
 '''
-nums = [1, 3, 5, 6]
-target = 5
+nums = [2, 3, 5, 6]
+target = 1
 
 
 def find_index_of_target(nums, target):
